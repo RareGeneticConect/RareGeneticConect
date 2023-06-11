@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+
+
+/* cabeçalho */
+ 
+header {
+    background-color: rgb(105, 105, 105);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 10px solid rgb(0, 255, 149);
+}
+ /* gred de produtos*/
+
+ .container{
+     background-color: #eee;
+     min-height: 60vh;
+     padding: 50px;
+     
+ }
+    .products-container{
+        max-width: 1450px;
+        margin: auto;
+    }
+
+        .car{
+           width: 45%;
+           margin: 1% 1%;
+           display: inline-block;
+           padding: 15px;
+            
+           
+        }
+
+        .product-image
+        {
+            height: 300px;
+            width: 100%;
+            margin-bottom: 10px;
+            background-position: center;
+            background-size: cover;
+            border-top: 4px solid black;
+            border-left: 4px solid black;
+            border-width: 4px solid black;
+            border-right: 4px solid black;
+            border-bottom: 4px solid black;;
+            text-align: center;
+        }
+         #img-1{
+            background-image: url('FIBROSE.jpg');
+         }
+        #img-2{
+             background-image: url('Angioedema\ hereditário.jpg'); 
+         }
+         #img-3{
+             background-image: url('Síndrome\ de\ Ehlers-Danlos\ \(EDS\).jpg');
+        }
+        #img-4{
+            background-image: url('Neuro.jpg')
+        }
+        h3{
+            margin-bottom: 10px;
+            border-left: 5px solid rgb(0, 255, 149);
+            padding-left: 5px ;
+            color: dimgray;
+            font-size: 24px;
+        }
+         .card p{
+             margin-bottom: 10px;
+         }
+         .bold {
+             font-weight: bold;
+         }
+         .btn{
+             display: block;
+             width: 100%;
+             text-align: center;
+             text-transform: uppercase;
+             text-decoration: none;
+             background-color: rgb(0, 255, 149) ;
+             color: #fff;
+             padding: 15px;
+             border-radius: 6px;
+             transition: .5s;
+         }
+
+         .btn:hover{
+             background-color: rgb(21, 255, 0);
+         }
+    /* footer */
+    footer{
+        background-color: grey;
+        color: #fff;
+        border-top: 3px solid gray;
+        text-align: center;
+        padding: 20px;
+    }
+    
+
+    #para{
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 20px;
+    }
+    #doe{
+     text-align: center;
+    }
+
+    #theme{
+    text-align: center;
+    font-size: 20px;
+    width: 93%;
+    text-align: justify;
+    padding: 5%;
+    padding-top: 2px;
+    }
+    #in{
+    text-align: end;
+    color: #fff;
+
+    }
